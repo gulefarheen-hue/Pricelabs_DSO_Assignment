@@ -62,34 +62,17 @@ Reports are generated inside:
 ```
 cypress/reports
 ```
-
 Screenshots are captured automatically on failure.
 
----
 
-## Run the Project
+Run the Project
 
 Install dependencies:
-
-```
 npm install
-```
+
 
 Run tests in headless mode:
-
-```
 npx cypress run
-```
 
 Open Cypress Test Runner:
-
-```
 npx cypress open
-```
-
----
-
-## Notes
-
-* `node_modules` and generated reports are excluded using `.gitignore`.
-* The framework follows **best practices for maintainable test automation**.
